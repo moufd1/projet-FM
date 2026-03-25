@@ -9,7 +9,7 @@ def calculDApprobations(p):
     if len(p)==0 :
         raise ValueError("pas de votantes")
     
-    if len(pp[0])==0 :
+    if len(p[0])==0 :
         raise ValueError("pas de candidates")
 
     m = len(p[0]) #nb de candidates
@@ -17,7 +17,7 @@ def calculDApprobations(p):
     d={}
     # On parcourt toutes les paires possibles de candidates (k, l)
     for k in range(m):
-        for l in (k+1,m):
+        for l in range(k+1, m):
             #compter combien de votantes preferent candidate k a candidate l
             #une votante prefere k a l si elle approuve k par 1 et n'approuve pas l par 0
             nb_kl=0
