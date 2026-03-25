@@ -1,7 +1,7 @@
 def calculDApprobations(p):
     """
     Calcule d_{ck, cl}(p) poour toutes les paires de candidates pour un profil d'approbations
-    p : Liste de listes (le résultat de la fonction generer_profil)
+    p : Liste de listes (le résultat de la fonction generer_profil_approbation)
  
     RETURN : Un dictionnaire {(k, l): distance_absolue}
     """
