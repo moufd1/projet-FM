@@ -50,8 +50,8 @@ def tracer_evolution_phi_carre(n, m):
     
 
 
-#[-------Fin du graphe-----]
 
 
-# --- POUR TESTER ---
+
+# TEST
 tracer_evolution_phi_carre(50, 6) # Test avec 50 votantes et 6 candidates
