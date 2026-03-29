@@ -81,10 +81,6 @@ def u2_tilde_approbation(profil,nbr_relances):
 
 
 
-import random
-from ex8 import *
-from question12 import u1_bulletin_consensus_approbation,matrice_couts
-from scipy.optimize import linear_sum_assignment
 
 
 
